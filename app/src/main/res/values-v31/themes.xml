@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AdvanceFitnessAndWellnessTracker" parent="android:Theme.Material.Light.NoActionBar.TranslucentDecor" />
+
+    <style name="Theme.App.StartingTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#242323</item>
+        <item name="postSplashScreenTheme">@style/Theme.AdvanceFitnessAndWellnessTracker</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/animated_logo</item>
+    </style>
+</resources>
