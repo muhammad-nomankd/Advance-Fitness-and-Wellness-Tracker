@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
 
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        //splash screen
         installSplashScreen().apply {
             setKeepOnScreenCondition{
                 !viewModel.isReady.value
