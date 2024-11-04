@@ -28,6 +28,7 @@ class MainActivity : ComponentActivity() {
                     View.SCALE_X,
                     0.4f,
                     0.0f
+                    //
                 )
                 zoomX.interpolator = OvershootInterpolator()
                 zoomX.duration = 500L
